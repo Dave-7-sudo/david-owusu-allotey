@@ -75,7 +75,7 @@ const CERTIFICATES = [
   {
     id: "presec-award",
     title: "PRESEC Cybersecurity & Awareness Club | Organizing Secretary & Service Award",
-    date: "",
+    date: "September 2025",
     image: "/images/presec.jpg",
   },
 ];
