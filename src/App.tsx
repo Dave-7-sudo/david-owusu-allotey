@@ -85,9 +85,7 @@ const imageCerts = ((): typeof CERTIFICATES => {
   // Dynamically filter at runtime to avoid hoisting issues
   return CERTIFICATES.filter((c: { id: string; title: string; date?: string; image: string }) => Boolean(c.image));
 })();
-const textCerts = ((): typeof CERTIFICATES => {
-  return CERTIFICATES.filter((c: { id: string; title: string; date?: string; image: string }) => !c.image);
-})();
+const textCerts = CERTIFICATES;  // Show all certificates as text
 
 const NAV_LINKS = [
   { label: "Summary", href: "#summary" },
