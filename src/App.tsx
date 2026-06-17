@@ -458,7 +458,6 @@ export default function App() {
             </div>
             <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 md:flex-row">
               <p className="text-sm text-slate-500">© {new Date().getFullYear()} David Owusu Allotey. All rights reserved.</p>
-              <p className="flex items-center gap-1.5 text-sm text-slate-500"><Shield className="h-4 w-4 text-blue-500" />Built with React, Vite & Tailwind CSS</p>
             </div>
           </div>
         </footer>
